@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sass/normalize.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" />
+    <link rel="stylesheet" href="./css/sass/styles.css" />
+    <script src="js/main.js" defer></script>
+    <title>mahmoudrabbas</title>
+</head>
+
+<body>
+    <span onclick="toTop()" class="arrow" id="arrow">
+        <i class="fa-solid fa-angles-up"></i>
+    </span>
+    <div class="header">
+        <div class="container">
+            <span class="logo"><a href="https://www.github.com/mahmoudrabbas">mahmoudrabbas.</a></span>
+            <div class="links">
+                <span onclick="openLinks()" class="icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <ul id="links">
+                    <li onclick="openLinks()"><a href="#me">ME</a></li>
+                    <li onclick="openLinks()"><a href="#skills">Skills</a></li>
+                    <li onclick="openLinks()"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="portfolio" id="me">
+        <h3>Hello There!</h3>
+        <div class="container">
+            <div class="part1">
+                <h4>Who AM I ?</h4>
+                <div class="description">
+                    <p>I am Mahmoud, a student at <span
+                            title="faculty of computers and information Minia university">FCI-Minia University</span>
+                        <br>and a <span class="span1">javascript
+                            developer</span>..
+                    </p>
+                </div>
+                <a href="https://www.behance.net/mahmoudrabass">See Works</a>
+            </div>
+            <div class="part3">
+                <img class="img" src="./imgs/99439727_663381257837196_2428376944404856832_n.jpg">
+            </div>
+            <div class="part2">
+                <a href="https://www.facebook.com/mahmoudrabbas"><i title="my facebook" class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com/mahmoudrabbas"><i title="my twitter" class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/mahmoud-r-abbas-1b3a1116a"><i title="my linkedin"
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.github.com/mahmoudrabbas"><i title="my github" class="fab fa-github"></i></a>
+                <a href="https://stackoverflow.com/users/14189675"><i title="my stackoverflow"
+                        class="fa-brands fa-stack-overflow"></i></a>
+                <a href="mailto:mahmoudrabass11@gmail.com"><i title="my twitter" class="fab fa-google"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h3>Skills</h3>
+        <div class="container">
+            <div class="skills">
+
+                <div class="skill">
+                    <div class="skill-img">
+                        <img src="imgs/Best-Website-Designs.png" />
+                    </div>
+                    <div class='skill-desc'>
+                        <h4>Web desiging</h4>
+                        <p>I have some experience in the front end development</p>
+                        <span>#html5</span>
+                        <span>#css3</span>
+                        <span>#js</span>
+                        <span>#react</span>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-img">
+                        <img src="imgs/926f6aaba773.png" />
+                    </div>
+                    <div class='skill-desc'>
+                        <h4>Web programming</h4>
+                        <p>I have some experience in the back end development</p>
+                        <span>#nodejs</span>
+                        <span>#mysql</span>
+                        <span>#mongoDB</span>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-img">
+                        <img src="imgs/images.png" />
+                    </div>
+                    <div class='skill-desc'>
+                        <h4>Problem solving</h4>
+                        <p>I have recently started problem solving in c++ language</p>
+                        <span>#datastructures</span>
+                        <span>#algorithms</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h3>Contact me</h3><br>
+        <div class="container">
+            <form>
+                <div class="input-group">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" placeholder="type your name" />
+                </div>
+                <div class="input-group">
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" placeholder="type your email" />
+                </div>
+                <div class="input-group">
+                    <button type="submit"><i class="fa-solid fa-paper-plane"></i> Send</button>
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <p>Made with <i class="fa-solid fa-heart"></i> 2022 &copy; <span class="logo">mahmoudrabbas.</span>
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
