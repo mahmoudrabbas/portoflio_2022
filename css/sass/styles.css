@@ -410,6 +410,7 @@ body {
   align-items: center;
 }
 .contact .container form .input-group label {
+  width: 10%;
   color: #333;
   font-size: 1.1em;
 }
@@ -425,6 +426,20 @@ body {
   -o-border-radius: 5px;
 }
 .contact .container form .input-group input:focus {
+  box-shadow: 1px 1px 1px #333 inset, -1px -1px 1px #333 inset;
+}
+.contact .container form .input-group textarea {
+  width: 80%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.contact .container form .input-group textarea:focus {
   box-shadow: 1px 1px 1px #333 inset, -1px -1px 1px #333 inset;
 }
 .contact .container form .input-group button {

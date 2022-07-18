@@ -371,10 +371,27 @@ $bg2: #eee;
                 justify-content: center;
                 align-items: center;
                 label {
+                    width: 10%;
                     color: $sc;
                     font-size: 1.1em;
                 }
                 input {
+                    width: 80%;
+                    padding: 10px;
+                    outline: none;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    -ms-border-radius: 5px;
+                    -o-border-radius: 5px;
+                    &:focus {
+                        box-shadow: 1px 1px 1px $sc inset,
+                        -1px -1px 1px  $sc inset;
+                    }
+
+                }
+                textarea {
                     width: 80%;
                     padding: 10px;
                     outline: none;
