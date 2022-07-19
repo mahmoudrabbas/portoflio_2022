@@ -50,7 +50,7 @@ body {
   position: fixed;
   bottom: 50px;
   right: 50px;
-  background-color: red;
+  background-color: #0d84c4;
   color: white;
   padding: 8px;
   font-size: 1em;
@@ -89,7 +89,7 @@ body {
   -o-border-radius: 10px 0 10px 10px;
 }
 .header .logo::first-letter {
-  color: red;
+  color: #0d84c4;
   font-family: cursive;
   font-size: 1.4em;
 }
@@ -124,7 +124,7 @@ body {
 }
 .header .links:hover .icon span:nth-child(2) {
   width: 100%;
-  background-color: red;
+  background-color: #0d84c4;
 }
 .header .links ul {
   background-color: #eee;
@@ -164,7 +164,7 @@ body {
 }
 .header .links ul li a:hover {
   padding-left: 20px;
-  color: red;
+  color: #0d84c4;
 }
 .header .links ul li:not(:last-child) a {
   border-bottom: 0.5px solid white;
@@ -181,7 +181,7 @@ body {
   text-align: center;
   margin: 0;
   margin-bottom: 25px;
-  color: red;
+  color: #0d84c4;
 }
 .portfolio .container {
   height: 80%;
@@ -216,7 +216,7 @@ body {
   line-height: 42px;
 }
 .portfolio .container .part1 .description p .span1 {
-  color: red;
+  color: #0d84c4;
   font-weight: 600;
 }
 .portfolio .container .part1 a {
@@ -242,6 +242,12 @@ body {
 }
 .portfolio .container .part1 a:hover {
   background-color: #222;
+}
+.portfolio .container .part1 a.cv {
+  background-color: #1877f2;
+}
+.portfolio .container .part1 a.cv:hover {
+  background-color: #0077B5;
 }
 .portfolio .container .part2 {
   align-self: flex-end;
@@ -303,7 +309,7 @@ body {
   -moz-transition: all 0.5s ease-in;
   -ms-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
-  box-shadow: 5px 5px 1px 0px red;
+  box-shadow: 5px 5px 1px 0px #0d84c4;
 }
 
 .skills {
@@ -365,7 +371,7 @@ body {
   width: 65%;
 }
 .skills .container .skills .skill .skill-desc h4 {
-  color: red;
+  color: #0d84c4;
 }
 .skills .container .skills .skill .skill-desc span {
   background-color: #ccc;
@@ -468,12 +474,15 @@ body {
   color: red;
 }
 .contact .footer .container .logo::first-line {
-  color: red;
+  color: #0d84c4;
   font-family: cursive;
 }
 
 @media (max-width: 767px) {
   .contact .container form {
     width: 100%;
+  }
+  .contact .container form .input-group label {
+    width: 0;
   }
 }/*# sourceMappingURL=styles.css.map */

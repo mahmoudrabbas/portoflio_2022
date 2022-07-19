@@ -1,4 +1,4 @@
-$mc: red;
+$mc: #0d84c4;
 $sc: #333;
 $bgc: #eee;
 $bg2: #eee;
@@ -200,6 +200,12 @@ $bg2: #eee;
                 -o-transition: all 0.5s ease-in-out;
                 &:hover {
                     background-color: #222;
+                }
+                &.cv {
+                    background-color: #1877f2;
+                    &:hover {
+                        background-color: #0077B5;
+                    }
                 }
             }
         }
@@ -428,7 +434,7 @@ $bg2: #eee;
         text-align: center;
         .container {
             .fa-heart {
-                color: $mc;
+                color: red;
             }
             .logo {
                 &::first-line {
@@ -446,4 +452,7 @@ $bg2: #eee;
     .contact .container form {
         width: 100%;
     } 
+    .contact .container form .input-group label {
+        width: 0;
+    }
 }
